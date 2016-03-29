@@ -1,0 +1,50 @@
+# Mac
+.DS_Store
+
+# java:
+*target*
+*.jar
+*.war
+*.ear
+*.class
+
+# Intellij:
+*.iml
+
+## Intellij Gradle:
+.idea/
+#.idea/gradle.xml
+# .idea/libraries
+*.iml
+
+## Intellij file-based project format:
+*.ipr
+*.iws
+
+# Eclipse:
+.classpath
+.project
+.metadata
+.settings/
+.loadpath
+local.properties
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+# Python:
+*.pydevproject
+
+# Locally stored "Eclipse launch configurations":
+*.launch
+
+# External tool builders
+.externalToolBuilders/
+
+# Maven
+log/
+target/
