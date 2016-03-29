@@ -1,10 +1,13 @@
 # javac_all.sh
 # Compile all java programs:
 # Before running: chmod a+x javac_all.sh
+# This script doesn't stop when one has a problem.
 
 #
+echo "## Compiling ArrayDemo:"
 javac ArrayDemo.java
 #
+echo "## Compiling DivBy0:"
 javac DivBy0.java
 #
 javac FunctionCall.java
@@ -14,8 +17,6 @@ javac HelloDate.java
 javac HelloWorld.class
 #
 javac HelloWorld.java
-#
-javac HelloWorld1.java
 #
 javac HelloWorldException.java
 #
